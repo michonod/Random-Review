@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(93, 255, 255, 0.37);
+}
+
+section {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.div-line {
+  height: 10px;
+  background-color: yellowgreen;
+  width: 150px;
+  border-radius: 20px;
+  margin-top: 0px;
+}
+
+/* MAIN */
+
+main {
+  width: 40vw;
+  min-height: 60vh;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.main-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 5px solid yellowgreen;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.job {
+  font-size: 1.2rem;
+  margin: 0;
+  color: yellowgreen;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.review p {
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.review-buttons {
+  font-size: 1.3rem;
+  padding: 0 0 20px 0;
+}
+
+button {
+  border: 5px solid rgb(126, 156, 65);
+  padding: 10px 40px;
+  background-color: yellowgreen;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  outline: none;
+  color: white;
+}
+
+.fas {
+  padding: 0px 20px;
+  color: rgb(126, 156, 65);
+}
